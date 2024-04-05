@@ -1,0 +1,18 @@
+.printable-table {
+    height: 648px;
+    overflow: hidden;
+}
+
+.edit-and-print {
+    max-height: 567px;
+    overflow: hidden;
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .printable-table {
+        min-height: 500px !important ;
+        overflow: hidden;
+    }
+}
